@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <style>
+        /* Add some basic styling for better presentation */
+        body {
+            background-color: #f0f0f0; /* Grey background */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .work__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .work__img {
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .work__img img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-	<img src=".\nothing.jpg" alt="Your Photo" width="1560" height="720">
-
+    <section>
+        <h2 class="section-title">CERTIFICATIONS</h2>
+        <div class="work__container bd-grid">
+            <a href="link/to/certification1" class="work__img">
+                <img src="D:\my portfolio\linux1.webp" alt="Certification 1">
+            </a>
+            <a href="link/to/certification2" class="work__img">
+                <img src="D:\my portfolio\linux2.webp" alt="Certification 2">
+            </a>
+            <a href="link/to/certification3" class="work__img">
+                <img src="D:\my portfolio\linux3.webp" alt="Certification 3">
+            </a>
+            <a href="link/to/certification4" class="work__img">
+                <img src="D:\my portfolio\cybersecurity.webp" alt="Certification 4">
+            </a>
+            <a href="link/to/certification5" class="work__img">
+                <img src="D:\my portfolio\PCAP - Programmi-certificate.webp" alt="Certification 5">
+            </a>
+            <a href="link/to/certification6" class="work__img">
+                <img src="D:\my portfolio\tableau.webp" alt="Certification 6">
+            </a>
+        </div>
+    </section>
 </body>
 </html>
